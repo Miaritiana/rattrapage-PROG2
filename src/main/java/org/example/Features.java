@@ -13,6 +13,6 @@ public class Features {
   }
 
   public static int getApartmentNumber(Place place) {
-
+    return place.getApartments().size();
   }
 }
